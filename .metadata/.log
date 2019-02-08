@@ -1,0 +1,274 @@
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2019-02-07 12:28:51.151
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:74)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:729)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:720)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: D:\EclipseWorkSpace\.metadata\.mylyn\tasks.xml.zip (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:59)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2019-02-07 12:28:51.152
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: D:\EclipseWorkSpace\.metadata\.mylyn\tasks.xml.zip (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:59)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:729)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:720)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-02-07 12:32:14.931
+!MESSAGE Could not write metadata for '/'.
+!STACK 0
+java.io.FileNotFoundException: D:\EclipseWorkSpace\.metadata\.plugins\org.eclipse.core.resources\.root\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1774)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1210)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1151)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-02-07 12:32:45.738
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-02-07 12:32:45.739
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-02-07 12:32:45.739
+!MESSAGE Could not write workspace metadata 'D:/EclipseWorkSpace/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: D:\EclipseWorkSpace\.metadata\.plugins\org.eclipse.core.resources\.root\1.tree (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1389)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1176)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2338)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:521)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-02-07 12:32:46.944
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2019-02-07 14:16:14.792 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2019-02-07 14:16:22.485
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-07 14:16:22.485
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21cb5648,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69fa5536,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 14:16:25.373
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 14:16:25.659
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-07 14:16:28.720
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\18162'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-02-07 14:33:29.831
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-07 14:33:58.042
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-07 14:34:31.919
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 14:48:24.423
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 14:50:03.691
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 14:56:49.448
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-02-07 16:35:47.709
+!MESSAGE Committing failed
+!STACK 1
+org.eclipse.team.core.TeamException: An internal error occurred
+	at org.eclipse.egit.core.op.CommitOperation.commit(CommitOperation.java:252)
+	at org.eclipse.egit.core.op.CommitOperation.access$5(CommitOperation.java:240)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:202)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:211)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.api.errors.WrongRepositoryStateException: Amending is not possible on initial commit.
+	at org.eclipse.jgit.api.CommitCommand.call(CommitCommand.java:201)
+	at org.eclipse.egit.core.op.CommitOperation.commit(CommitOperation.java:250)
+	... 7 more
+!SUBENTRY 1 org.eclipse.team.core 4 0 2019-02-07 16:35:47.710
+!MESSAGE An internal error occurred
+!STACK 0
+org.eclipse.jgit.api.errors.WrongRepositoryStateException: Amending is not possible on initial commit.
+	at org.eclipse.jgit.api.CommitCommand.call(CommitCommand.java:201)
+	at org.eclipse.egit.core.op.CommitOperation.commit(CommitOperation.java:250)
+	at org.eclipse.egit.core.op.CommitOperation.access$5(CommitOperation.java:240)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:202)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:211)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-02-07 16:44:57.355 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2019-02-07 16:45:04.838
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-07 16:45:04.838
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35fd03d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77737e3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 16:45:07.330
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-02-07 16:45:09.633
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\18162'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 18:10:06.249
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 19:38:55.187
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 19:41:20.445
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-07 19:41:41.394
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:25:53.793
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2019-02-07 22:25:55.603
+!MESSAGE Taglib Index ZipException: D:/EclipseWorkSpace/BeansSession-Property/WebContent/getSessionProperty.jsp error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:04.921
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:09.850
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:14.745
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:33.678
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:39.982
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:54.288
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:26:54.290
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:27:08.208
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:27:08.210
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:35:41.592
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:36:02.905
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-02-07 22:47:44.591
+!MESSAGE Invalid ZIP archive: WebContent/getSessionProperty.jsp [in BeansSession-Property]
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:58.988
+!MESSAGE Overlapping start in StyleRange 530:1
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:59.276
+!MESSAGE Overlapping start in StyleRange 528:1
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:59.279
+!MESSAGE Overlapping start in StyleRange 528:1
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:59.584
+!MESSAGE Overlapping start in StyleRange 526:1
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:59.587
+!MESSAGE Overlapping start in StyleRange 526:1
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2019-02-07 22:57:59.590
+!MESSAGE Overlapping start in StyleRange 526:1

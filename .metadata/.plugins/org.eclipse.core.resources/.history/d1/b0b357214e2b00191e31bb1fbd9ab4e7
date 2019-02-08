@@ -1,0 +1,66 @@
+Java Beans 
+	--Concept of Beans encapsulate multiple objects into one 
+	--we can access these objects using getters and setters
+	
+
+	Overview of Beans
+		--class which consists of multiple properties are independent objects 
+		
+
+1. Create a Dynamic project in eclipse 
+2. Create a package "org.study.com" or any
+3. Create a class in this package 
+4. Create any variables or members of the class 
+5. Create a default constructor 
+6. Create getters and setters using create getter and setter fields 
+7. Create .jsp files in web content getProperty.jsp, setProperty.jsp
+
+getProperty.jsp
+	
+	<jsp:useBean id="user" class="org.study.com.User" scope="session"></jsp:useBean>
+	FirstName : <jsp:getProperty property="firstName" name="user"/>
+	LastName : <jsp:getProperty property="lastName" name="user"/> 
+	
+setProperty
+
+	<jsp:useBean id="user" class="org.study.com.User" scope = "session"></jsp:useBean>
+	<jsp:setProperty property="firstName" name="user" value = "King"/>
+	<jsp:setProperty property="lastName" name="user" value = "Khan"/>
+	Values has been Set
+	
+	Run the getProperty into the server then you can see the result 
+	Now run the setProperty and refresh the getProperty the values from setProperty will be
+	updated to the getProperty default values
+
+	
+Beans Scope 
+	--Scope has impact on visibility of the Bean 
+	scope = "session" values are not updated all the time 
+	scope = "application" only single bean will be created values are updated once you run the application 
+	scope = "page" the setProperty will not update the values to the getProperty it is specific to that page only
+	scope = "request" setProperty bean values and getProperty Bean values should be in same JSP file 
+			then you can get the values from setProperty to getProperty values
+			
+			Example
+setProperty.jsp
+
+	<jsp:useBean id="user" class="org.study.com.User" scope = "session"></jsp:useBean>
+	
+	FirstName : <jsp:getProperty property="firstName" name="user"/>
+	LastName  : <jsp:getProperty property="lastName" name="user"/>
+	
+	<jsp:setProperty property="firstName" name="user" value = "King"/>
+	<jsp:setProperty property="lastName" name="user" value = "Khan"/>
+	
+	FirstName : <jsp:getProperty property="firstName" name="user"/>
+	LastName  : <jsp:getProperty property="lastName" name="user"/>
+	Values has been Set
+	
+Now execute the setProperty.jsp now you will see the changes.
+
+if you want to use the scope ="request" then in the setProperty.jsp use 
+
+	<% 
+		request.getRequestDispatcher("getProperty.jsp").forward(request, response)	
+	%>
+	

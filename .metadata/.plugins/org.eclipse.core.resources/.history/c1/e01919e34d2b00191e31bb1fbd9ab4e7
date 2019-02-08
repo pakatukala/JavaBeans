@@ -1,0 +1,23 @@
+Java Beans 
+	--Concept of Beans encapsulate multiple objects into one 
+	--we can access these objects using getters and setters
+	
+
+	Overview of Beans
+		--class which consists of multiple properties are independent objects 
+		
+
+1. Create a Dynamic project in eclipse 
+2. Create a package "org.study.com" 
+3. Create a class in this package 
+4. Create any variables or members of the class 
+5. Create a default constructor 
+6. Create getters and setters using create getter and setter fields 
+7. Create .jsp files in web content getProperty.jsp, setProperty.jsp
+
+getProperty.jsp
+	
+	<jsp:useBean id="user" class="org.study.com.User" scope="session"></jsp:useBean>
+	FirstName : <jsp:getProperty property="firstName" name="user"/>
+	LastName : <jsp:getProperty property="lastName" name="user"/> 
+	
