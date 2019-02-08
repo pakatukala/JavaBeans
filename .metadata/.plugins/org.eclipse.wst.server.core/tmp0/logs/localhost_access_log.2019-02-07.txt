@@ -70,3 +70,9 @@
 0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:44:19 -0600] "GET /BeansSession-Property/setSessionProperty.jsp HTTP/1.1" 200 502
 0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:44:20 -0600] "GET /BeansSession-Property/getSessionProperty.jsp?firstName=Pavan&lastName=Katukala HTTP/1.1" 200 318
 0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:47:36 -0600] "GET /BeansSession-Property/ HTTP/1.1" 404 1100
+127.0.0.1 - - [07/Feb/2019:22:53:24 -0600] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:53:25 -0600] "GET /BeanSessionprop/getSession.jsp HTTP/1.1" 200 307
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:53:36 -0600] "GET /BeanSessionprop/getSession.jsp HTTP/1.1" 200 312
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:22:53:49 -0600] "GET /BeanSessionprop/getSession.jsp HTTP/1.1" 200 306
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:23:00:11 -0600] "GET /BeanSessionprop/setSession.jsp HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [07/Feb/2019:23:00:21 -0600] "GET /BeanSessionprop/getSession.jsp?firstName=King&lastName=Khan HTTP/1.1" 200 303
