@@ -5,7 +5,33 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-02-08T19:41:36Z</updated>
+  <updated>2019-02-12T21:57:00Z</updated>
+  <entry>
+    <title>This Week in Spring - February 12, 2019</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/02/12/this-week-in-spring-february-12-2019" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-02-12:3560</id>
+    <updated>2019-02-12T21:57:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve got good stuff to get to but first, I want to invite you to be part of the discussion and consider submitting to the &lt;em&gt;SpringOne Platform 2019&lt;/em&gt; event. The &lt;a href="https://springoneplatform.io/2019/cfp"&gt;call-for-papers opened today&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;Now then, we&amp;rsquo;ve got a ton to get to this week so without further ado..&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;WATCH: Hi Spring fans! In last week&amp;rsquo;s &lt;em&gt;Spring Tips&lt;/em&gt; I looked at &lt;a href="https://spring.io/blog/2019/02/06/spring-tips-testing-reactive-code"&gt;testing reactive code&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;LISTEN: For last week&amp;rsquo;s installment of &lt;em&gt;The Bootiful Podcast&lt;/em&gt; I talked to Dror Weiss about Codota, which aims to bring &lt;em&gt;much&lt;/em&gt; &lt;a href="https://spring.io/blog/2019/02/08/a-bootiful-podcast-dror-weiss"&gt;smarter code completion to your IDE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/02/08/spring-cloud-data-flow-1-7-4-and-skipper-1-1-4-released"&gt;Spring Cloud Data Flow 1.7.4 and Skipper 1.1.4 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[](&lt;a href="https://spring.io/blog/2019/02/06/spring-cloud-data-flow-and-skipper-2-0-m2-released"&gt;https://spring.io/blog/2019/02/06/spring-cloud-data-flow-and-skipper-2-0-m2-released&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Notice! The &lt;a href="https://spring.io/blog/2019/02/06/legacy-forums-will-be-shutdown-february-28"&gt;legacy question-and-answer forums will be shutdown February 28&lt;/a&gt;! The good news, of course, is that we&amp;rsquo;re still on &lt;a href="http://spring.io/questions"&gt;StackOverflow&lt;/a&gt; and we&amp;rsquo;d &lt;em&gt;love&lt;/em&gt; to engage with you there!&lt;/li&gt;
+  &lt;li&gt;This is a bit meta, but would you like to learn a little more about what it is I (try) to do, in my capacity as the first Spring Developer Advocate at Pivotal? You might enjoy this episode &lt;a href="http://devrelrad.io/josh-long-on-live-coding-and-more?tdest_id=660362"&gt;of the &lt;em&gt;Devrel Radio&lt;/em&gt; podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I&amp;rsquo;d like to welcome back Sam Brannen to the Spring team. Sam was a member of the Spring team years ago, and contributed to, among other things, the Spring Test support. He&amp;rsquo;s also now the lead of JUnit 5. &lt;a href="https://twitter.com/springcentral/status/1095243271968825345"&gt;It&amp;rsquo;s so nice to have him back!&lt;/a&gt; Welcome, Sam!&lt;/li&gt;
+  &lt;li&gt;I like this writeup on &lt;a href="https://www.nurkiewicz.com/2019/02/rxjava-vs-reactor.html"&gt;RxJava vs. Reactor&lt;/a&gt;. SPOILER: it depends!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1093896741760495617"&gt;Join us at SpringOne Tour London! We&amp;rsquo;d love to see you there!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love this example by Robert Roeser &lt;a href="https://github.com/netifi/proteus-spring-kafka-example"&gt;demonstrating RSocket-based RPC, Proteus, and Project Reactor&amp;rsquo;s Kafka client.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I think this is a pretty interesting discussion of &lt;a href="https://www.excelsiorjet.com/blog/articles/aot-compilation-of-spring-boot-behind-the-scenes/"&gt;AOT Compilation of Spring Boot from the Excelsior JET team blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud Data Flow 1.7.4 and Skipper 1.1.4 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/02/08/spring-cloud-data-flow-1-7-4-and-skipper-1-1-4-released" />
@@ -1360,94 +1386,5 @@ complex applications.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Bootiful Azure: To Production (6/6)</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-01-02:3516</id>
-    <updated>2019-01-21T00:00:00Z</updated>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;This is part 6 of a 6 part series, with new posts Mondays and Thursdays, introducing Microsoft Azure for Spring developers. I couldn&amp;rsquo;t have put this together without input from Microsoft&amp;rsquo;s Asir Vedamuthu Selvasingh, Yitao Dong, Bruno Borges, Brian Benz and Theresa Nguyen. You can find the code for this series &lt;a href="https://github.com/joshlong/bootiful-azure-article"&gt;on Github&lt;/a&gt;. Hit me up on &lt;a href="http://twitter.com/Starbuxman"&gt;Twitter (@starbuxman)&lt;/a&gt; as you&amp;rsquo;re reading the installments with any feedback or questions. You can also learn more about Microsoft Azure in my &lt;a href="http://twitter.com/SpringTipsLive"&gt;Spring Tips (@SpringTipsLive)&lt;/a&gt; installment, &lt;a href="https://spring.io/blog/2018/12/05/spring-tips-bootiful-microsoft-azure"&gt;&lt;em&gt;Bootiful Azure&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here are all the installments: &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/03/bootiful-azure-taking-your-first-steps-with-microsoft-azure-1-6"&gt;Bootiful Azure: Taking Your First Steps with Microsoft Azure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/07/bootiful-azure-sql-based-data-access-with-microsoft-sql-server-2-6"&gt;Bootiful Azure: SQL-based data access with Microsoft SQL Server&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/10/bootiful-azure-global-scale-data-access-with-cosmosdb-3-6"&gt;Bootiful Azure: Global Scale Data Access with CosmosDB&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/14/bootiful-azure-integration-with-azure-service-bus-4-6"&gt;Bootiful Azure: Integration with Azure Service Bus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/17/bootiful-azure-object-storage-service-5-6"&gt;Bootiful Azure: Object Storage Service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2019/01/21/bootiful-azure-to-production-6-6"&gt;Bootiful Azure: To Production!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This last post in our series looking at Microsoft Azure is really a quick wrapup post that looks at things to keep in mind when deploying an application built with Spring Boot and Micosoft Azure to production.&lt;/p&gt;&lt;h2&gt;&lt;a href="#secure-configuration" class="anchor" name="secure-configuration"&gt;&lt;/a&gt;Secure Configuration&lt;/h2&gt;
-&lt;p&gt;We&amp;rsquo;ve developed the application with ease and aplomb from the comfort of our local machines, plugging in the relevant confuguration values as we need them. Trouble is, these are often very sensitie values tht shouldn&amp;rsquo;t be left laying around on the filesystem at rest, unencrypted. There are a &lt;em&gt;number&lt;/em&gt; of good solutions for this. You could of course deploy the Spring Cloud Config Service itself. If you&amp;rsquo;re running &lt;a href="https://pivotal.io/partners/microsoft"&gt;Pivotal Cloud Foundry on Microsoft Azure (or otherwise)&lt;/a&gt;, this is the recommended way because it&amp;rsquo;s a one-liner to get it deployed and working. You could of course deploy &lt;a href="https://www.hashicorp.com/resources/introduction-to-using-hashicorp-vault-with-azure"&gt;Hashicorp Vault and use Spring Cloud Vault&lt;/a&gt;. Or, you could store the keys and values in Microsoft&amp;rsquo;s &lt;a href="https://azure.microsoft.com/en-us/services/key-vault/"&gt;own Key Vault service&lt;/a&gt;. In order to effectively use Key Vault you&amp;rsquo;ll need to get into configuring Microsoft Active Directory which, while not something I&amp;rsquo;d wish on you or your loved ones, dear reader, is something in which I&amp;rsquo;m &lt;em&gt;quite&lt;/em&gt; interested.&lt;/p&gt;&lt;h2&gt;&lt;a href="#microsoft-active-directory" class="anchor" name="microsoft-active-directory"&gt;&lt;/a&gt;Microsoft Active Directory&lt;/h2&gt;
-&lt;p&gt;In my 20+ years of helping organizations build software I&amp;rsquo;ve seen nary a handful that &lt;em&gt;weren&amp;rsquo;t&lt;/em&gt; using Microsoft Active Directory even if only from the LDAP interface. Sure, I hope Google Apps gains more traction in the enterprise, but let&amp;rsquo;s be very clear: Active Directory is &lt;em&gt;the&lt;/em&gt; prevailing standard in enterprise IT. It is a way of life, even if you and I probably don&amp;rsquo;t have to worry about it all that often in our idealized world of application development. And for good reason! It integrates the entire Windows desktop experience for the business professional. It&amp;rsquo;s the beating heart of the Office365 story and it&amp;rsquo;s the way organization organizes and self structures itself. Want to know if you got that promotion? Check Active Directory! Want to know where someone is seated? Check Active Directory! Want to force password resets? Maintain enterprise-wide audit logs? &lt;em&gt;Fire someone&lt;/em&gt;? Check Active Directory! You may think your organizations runs Active Directory but lets be clear: it runs your organization.&lt;/p&gt;
-&lt;p&gt;Active Directory is a directoy server. It provides a tree of users, organizations and more. It acts as identity manager for technologies like Microsoft CRM, Microsoft SQL Server, Microsoft Office and even Microsoft Windows itself. You can describe users, their rights and roles, and so much more in Active Directory. Which brings us back around. Microsoft Azure runs Active Directory for you! You can import and configure all the relevant information for your Microsoft Active Directory install right from the platform. &lt;a href="https://azure.microsoft.com/en-us/blog/spring-security-azure-ad/"&gt;There&amp;rsquo;s even a Spring Boot starter to connect Microsoft Azure to your OAuth-delegating Spring Boot- and Spring Security-powered applications&lt;/a&gt;. Could you deploy and manage something like Microsoft SQL Server or Microsoft Active Directory yourself? Sure. But, &lt;em&gt;should you&lt;/em&gt;?&lt;/p&gt;&lt;h2&gt;&lt;a href="#application-insights" class="anchor" name="application-insights"&gt;&lt;/a&gt;Application Insights&lt;/h2&gt;
-&lt;p&gt;As you scale out and spin up more microservices you&amp;rsquo;ll introduce more and more moving parts and it becomes all the more critical to be able to observe the movement of data from one node to another in the system. Here, the Microsoft Application Insights integration for Spring applications - which is for the moment at least delivered separate from the main Spring integration for Microsoft Azure - makes using it an cinch! Add &lt;code&gt;com.microsoft.azure&lt;/code&gt;: &lt;code&gt;applicationinsights-spring-boot-starter&lt;/code&gt; : &lt;code&gt;1.1.0-BETA&lt;/code&gt; to your build file.&lt;/p&gt;
-&lt;p&gt;You can script the creation of an Application Insights subscription, like this: &lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;#!/usr/bin/env bash&#xD;
-&#xD;
-rg=$1&#xD;
-appname=${rg}-appinsights&#xD;
-&#xD;
-az resource create \&#xD;
-    --resource-group $rg \&#xD;
-    --resource-type &amp;quot;Microsoft.Insights/components&amp;quot; \&#xD;
-    --name $appname \&#xD;
-    --location &amp;quot;South Central US&amp;quot; \&#xD;
-    --properties &amp;#39;{&amp;quot;ApplicationId&amp;quot;:&amp;quot;bootiful&amp;quot;,&amp;quot;Application_Type&amp;quot;:&amp;quot;web&amp;quot;}&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That&amp;rsquo;ll create a subscription and bind it to the &lt;code&gt;bootiful&lt;/code&gt; resource group. Use the following command to access the resulting key (assuming the same &lt;code&gt;$rg&lt;/code&gt; and &lt;code&gt;$appname&lt;/code&gt; variables are in scope):&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;az resource show -g $rg -n $appname --resource-type &amp;quot;Microsoft.Insights/components&amp;quot; --query properties.InstrumentationKey
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You&amp;rsquo;ll then need to specify the &lt;code&gt;azure.application-insights.instrumentation-key&lt;/code&gt; and to give your application a &lt;code&gt;spring.application.name&lt;/code&gt; name. Which, to be fair, you should do anyway. That&amp;rsquo;s it! Restart your application, drive some traffic through an HTTP endpoint in your application (even just running on &lt;code&gt;localhost&lt;/code&gt;) and then login to the Microsoft Application Insights dashboard and watch the instrumentation in action!&lt;/p&gt;&lt;h2&gt;&lt;a href="#cloud-foundry" class="anchor" name="cloud-foundry"&gt;&lt;/a&gt;Cloud Foundry&lt;/h2&gt;
-&lt;p&gt;You shouldn&amp;rsquo;t run software that you can&amp;rsquo;t charge for. Pivotal legend &lt;a href="http://twitter.com/WattersJames"&gt;James Watters&lt;/a&gt; often talks about work that&amp;rsquo;s &amp;ldquo;below the value line,&amp;rdquo; and the idea that technologists and executives should focus on work that&amp;rsquo;s above that value line for a given organization. The average organization has enough problems. Running commodity software like MySQL or Kafka shouldn&amp;rsquo;t be among them. Running things that don&amp;rsquo;t differentiate your business shouldn&amp;rsquo;t be among them. It&amp;rsquo;ll cost infinitely less, over enough time, to pay someone to run that, whatever &lt;em&gt;that&lt;/em&gt; is, for you if someone else can do a competent job. Ideally, whoever ends up running that software should have a vested interest in running those things well. Most organizations have a mission anything but configuring SSL, or debugging MySQL replication issues. It is virtually always cheaper to let someone else do that for you. &lt;/p&gt;
-&lt;p&gt;If you are trying to do something standard, then you should absolutely rely on standardized tools. Why use a cloud vendor&amp;rsquo;s lockin-ware to run a Java or Node-based application when you could use something like Cloud Foundry or Kubernetes, for which the hiring pool is larger, the cost can be virtually nill, and the ease of use is on-par or better than whatever the cloud vendor is offering?&lt;/p&gt;
-&lt;p&gt;This is a big part of the reason that Microsoft and Pivotal have such a great relationship. Enterprise customers understand that for some workloads the public cloud is a foregone conclusion, but they don&amp;rsquo;t want to be locked in. Optionality is valuable. Being able to move to a different platform is valuable. Agility - the ability to respond to change - is &lt;em&gt;valuable&lt;/em&gt;. We see this all the time; Google Cloud Platform&amp;rsquo;s prices were for some workload-types cheaper than Amazon Web Services at its debuts. Some public cloud vendors have availability zones in regions you might want to be in that others dont. Increasingly, organizations embark upon hybrid cloud or mutlicloud strategies, knowing that their workloads will vary, and their availability demands will vary. As much as possible, these organizations want to reduce the cost of operationalizing, securing, training-up and deploying to the varities of cloud infrastructure.&lt;/p&gt;
-&lt;p&gt;Pivotal Cloud Foundry is a natural choice here; it allows organizations to deploy reliably to any of a number of cloud platforms and, as easily, and when necessary, drop down to platform-specific services. This fact is one of the reasons that Microsoft named Pivotal partner of the year in 2017 and 2018. Pivotal Cloud Foundry, our distribution of the Apache 2 licensed open-source Cloud Foundry project, helps drive resource usage on Microsoft Azure and does so in as portable a way possible while still surfacing that which is valuable and unique.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m all for using something like Microsoft Azure to simplify the work of standing up infrastructure where Microsoft can provide a differentiated experience. But running a Java process or a Node.js process? Stick to de-facto standard infrastructure like Cloud Foundry or Kubernetes. It&amp;rsquo;s fairly trivial to get Cloud Foundry deployed on top of Microsoft Azure and, once deployed, it&amp;rsquo;s trivial to deploy Spring Boot applications there. It&amp;rsquo;s often as simple as &lt;code&gt;cf push -p my.jar&lt;/code&gt;. You&amp;rsquo;ll need the Cloud Foundry CLI, &lt;a href="https://docs.cloudfoundry.org/cf-cli/install-go-cli.html"&gt;of course&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the world of Cloud Foundry a &lt;em&gt;service broker&lt;/em&gt; is an HTTP API with which the Cloud Foundry platform interacts to manage the provisoning and lifecycle of&amp;hellip; &lt;em&gt;something&lt;/em&gt;. It could be a database like MySQL or a message queue like Apache Kafka. It could be an Active Directory installation or a CosmosDB connection. It could be any of a number of things. The Microsoft and Pivotal teams have worked hand-in-hand to ensure that the service broker options for users running Pivotal Cloud Foundry on Microsoft Azure support &lt;a href="https://docs.pivotal.io/partners/azure-sb/index.html"&gt;the tentpole services in as convenient a way possible&lt;/a&gt;. This list includes Microsoft Azure services like Azure Storage, Azure Redis Cache, Azure Service Bus, Azure Event Hubs, Azure SQL Databases (SQL Server, PostgreSQL and MySQL) and failover groups, and Azure CosmosDB. &lt;/p&gt;
-&lt;p&gt;You can inspect the Cloud Foundry service catalog by issuing a &lt;code&gt;cf marketplace&lt;/code&gt; command on the CLI. It&amp;rsquo;ll show you all the relevant services and you can then choose to provision an instance of the service and its associated plan. A plan describes the particular levels of service you can expect from a service broker resource and is naturally specific to each service broker on offer.&lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s say you have a Spring Boot application deployed to Cloud Foundry, given the logical name &lt;code&gt;myapp&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;&amp;gt; cf push -p my.jar --no-start myapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Suppose you wanted to provision an instance of Microsoft SQL Server for your application, and you wanted to be able to reference that database, logically, as &lt;code&gt;mydb&lt;/code&gt;. Your session might look like this. The following command would provision an instance of SQL Server, with parameters specified via inline JSON or a &lt;code&gt;.json&lt;/code&gt; file path, and assign it a logical name &lt;code&gt;mydb&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;&amp;gt; cf create-service azure-sqldb basic mydb -c &amp;#39;{&amp;quot;sqlServerName&amp;quot;: &amp;quot;Bootiful&amp;quot;}&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The service would soon be provisioned and usable from within an application. You&amp;rsquo;d just need to bind the service to your application, so that the relevant connectivity information could be injected into the application&amp;rsquo;s environment as an environment variable.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint shell"&gt;cf bind-service myapp mydb&#xD;
-cf restart myapp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now your running Spring Boot application would have an environment variable, &lt;code&gt;VCAP_SERVICES&lt;/code&gt;, whose contents would include the connection information for the just-provisioned service. It&amp;rsquo;d look something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint json"&gt;&amp;quot;VCAP_SERVICES&amp;quot;: {&#xD;
-  &amp;quot;azure-sqldb&amp;quot;: [&#xD;
-    {&#xD;
-      &amp;quot;credentials&amp;quot;: {&#xD;
-        &amp;quot;sqldbName&amp;quot;: &amp;quot;fake-database&amp;quot;,&#xD;
-        &amp;quot;sqlServerName&amp;quot;: &amp;quot;fake-server&amp;quot;,&#xD;
-        &amp;quot;sqlServerFullyQualifiedDomainName&amp;quot;: &amp;quot;fake-server.database.windows.net&amp;quot;,&#xD;
-        &amp;quot;databaseLogin&amp;quot;: &amp;quot;ulrich&amp;quot;,&#xD;
-        &amp;quot;databaseLoginPassword&amp;quot;: &amp;quot;u1r8chP@ss&amp;quot;,&#xD;
-        &amp;quot;jdbcUrl&amp;quot;: &amp;quot;jdbc:sqlserver://fake-server.database.windows.net:1433;database=fake-database;user=fake-admin;password=fake-password;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.windows.net;loginTimeout=30&amp;quot;,&#xD;
-        &amp;quot;jdbcUrlForAuditingEnabled&amp;quot;: &amp;quot;jdbc:sqlserver://fake-server.database.secure.windows.net:1433;database=fake-database;user=fake-admin;password=fake-password;Encrypt=true;TrustServerCertificate=false;HostNameInCertificate=*.database.secure.windows.net;loginTimeout=30&amp;quot;,&#xD;
-        &amp;quot;hostname&amp;quot;: &amp;quot;fake-server.database.windows.net&amp;quot;,&#xD;
-        &amp;quot;port&amp;quot;: 1433,&#xD;
-        &amp;quot;name&amp;quot;: &amp;quot;fake-database&amp;quot;,&#xD;
-        &amp;quot;username&amp;quot;: &amp;quot;ulrich&amp;quot;,&#xD;
-        &amp;quot;password&amp;quot;: &amp;quot;u1r8chP@ss&amp;quot;,&#xD;
-        &amp;quot;uri&amp;quot;: &amp;quot;mssql://ulrich:u1r8chP@ss@fake-server.database.windows.net:1433/fake-database?encrypt=true&amp;amp;TrustServerCertificate=false&amp;amp;HostNameInCertificate=*.database.windows.net&amp;quot;&#xD;
-      }&#xD;
-    }&#xD;
-  ]&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In Spring Boot, you could reference these properties using a flattened property access syntax, e.g.: &lt;code&gt;vcap.services.mydb.credentials.jdbcUrl&lt;/code&gt;. A common pattern here is to run applications in the cloud with a Spring profile active. Say, &lt;code&gt;cloud&lt;/code&gt;? That way you could put a config file in your code under &lt;code&gt;application-cloud.properties&lt;/code&gt; and that property file would be loaded when the application starts up in Cloud Foundry. You could put default, local configuration in &lt;code&gt;application-default.properties&lt;/code&gt;. So, when Spring Boot starts with no profile specified it&amp;rsquo;ll load the configuration in &lt;code&gt;application-default.properties&lt;/code&gt;. When running in Cloud Foundry on Azure it&amp;rsquo;d load the configuration in &lt;code&gt;application-cloud.properties&lt;/code&gt;. You could thus add the following to your &lt;code&gt;application-default.properties&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint properties"&gt;spring.datasource.url=${vcap.services.mydb.credentials.jdbcUrl}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bootiful!&lt;/p&gt;&lt;h2&gt;&lt;a href="#the-next-steps" class="anchor" name="the-next-steps"&gt;&lt;/a&gt;The Next Steps&lt;/h2&gt;
-&lt;p&gt;We&amp;rsquo;ve only just begun to scratch the surface of what&amp;rsquo;s possible with Spring, Microsoft Azure and Cloud Foundry in this and the posts before it. What should be clear is that there&amp;rsquo;s a nice symbiosis here, each technology making the layer below it even more powerful. It&amp;rsquo;s no wonder that a ton of Azure&amp;rsquo;s workloads are Linux, Spring Boot and Cloud Foundry-based: these things work well together. For those who want to learn even more about Spring on Microsoft Azure, check &lt;a href="https://docs.microsoft.com/en-us/java/azure/spring-framework/?view=azure-java-stable"&gt;out the resource portal from Azure&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
